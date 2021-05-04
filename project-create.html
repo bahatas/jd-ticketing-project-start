@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -12,8 +12,8 @@
             rel="stylesheet"
             href="assets/vendor/bootstrap/css/bootstrap.min.css"
     />
-    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/libs/css/style.css" />
+    <link href="assets/vendor/fonts/circular-std/style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/libs/css/style.css"/>
     <link
             rel="stylesheet"
             href="assets/vendor/fonts/fontawesome/css/fontawesome-all.css"
@@ -30,7 +30,7 @@
             rel="stylesheet"
             href="assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css"
     />
-    <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css" />
+    <link rel="stylesheet" href="assets/vendor/charts/c3charts/c3.css"/>
     <link
             rel="stylesheet"
             href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css"
@@ -47,11 +47,10 @@
     <!-- navbar -->
     <!-- ============================================================== -->
     <div class="dashboard-header">
-        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <nav class="navbar navbar-expand-lg bg-info fixed-top">
             <a class="navbar-brand" href="https://www.cybertekschool.com/"
             >Cybertek</a
             >
-
             <button
                     class="navbar-toggler"
                     type="button"
@@ -222,11 +221,236 @@
                 <!-- ============================================================== -->
                 <!-- pageheader  -->
                 <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                        <div class="page-header">
+                            <h2 class="pageheader-title">Project Create </h2>
+                            <p class="pageheader-text">Proin placerat ante duiullam scelerisque a velit ac porta, fusce
+                                sit amet vestibulum mi. Morbi lobortis pulvinar quam.</p>
+                            <div class="page-breadcrumb">
+                                <nav aria-label="breadcrumb">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="#"
+                                                                       class="breadcrumb-link">Administration</a></li>
+                                        <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Project
+                                            Create</a>
+                                        </li>
+
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- ============================================================== -->
                 <!-- end pageheader  -->
                 <!-- ============================================================== -->
+                <div class="row">
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8 col-8">
+
+                        <div class="card">
+                            <form>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12">
+                                            <div class="form-group">
+                                                <label for="projectname" class="col-form-label">Project Name</label>
+                                                <input id="projectname" type="text"
+                                                       class="form-control" required="required">
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12">
+                                            <div class="form-group">
+                                                <label for="projectcode" class="col-form-label">Project Code</label>
+                                                <input id="projectcode" type="text"
+                                                       class="form-control" required="required">
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label for="assignedmanager-select" class="col-form-label">Assigned
+                                                    Manager</label>
+                                                <select class="form-control" id="assignedmanager-select" required="required">
+                                                    <option value="Select" selected="selected">Select</option>
+                                                    <option value="Admin">Admin</option>
+                                                    <option value="Manager">Manager</option>
+                                                    <option value="Employee">Employee</option>
+
+                                                </select>
+
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label for="phonenumber" class="col-form-label">Phone Number</label>
+                                                <input id="phonenumber" type="text" placeholder="phone number"
+                                                       class="form-control" required="required">
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label for="password" class="col-form-label">Password</label>
+                                                <input id="password" type="text" placeholder="password"
+                                                       class="form-control" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label for="repassword" class="col-form-label">Password</label>
+                                                <input id="repassword" type="text" placeholder="confirm your password"
+                                                       class="form-control" required="required">
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label>Gender</label><br>
+                                                <label class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" name="radio-inline" checked=""
+                                                           class="custom-control-input"><span
+                                                        class="custom-control-label">Male</span>
+                                                </label>
+                                                <label class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" name="radio-inline" checked=""
+                                                           class="custom-control-input"><span
+                                                        class="custom-control-label">Female</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 col-md-6">
+                                            <div class="form-group">
+                                                <label for="role-select" class="col-form-label">Choose a Role</label>
+                                                <select class="form-control" id="role-select" required="required">
+                                                    <option value="Select" selected="selected">Select</option>
+                                                    <option value="Admin">Admin</option>
+                                                    <option value="Manager">Manager</option>
+                                                    <option value="Employee">Employee</option>
+
+                                                </select>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-12">
+
+                                            <div class="float-right">
+                                                <button class="btn btn-success rounded" type="submit">Save</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+
+                        <div class="page-header">
+                            <h2 class="pageheader-title">User Create </h2>
+                        </div>
+
+                        <div class="card">
+                            <h5 class="card-header">Contextual classes</h5>
+                            <div class="card-body">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th scope="col">Name</th>
+                                        <th scope="col">Email(username)</th>
+                                        <th scope="col">Gender</th>
+                                        <th scope="col">Phone</th>
+                                        <th scope="col">Role</th>
+                                        <th scope="col">Acion</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr class="table-primary">
+
+                                        <td>baha</td>
+                                        <td>baha@cybertekschool.com</td>
+                                        <td>Male</td>
+                                        <td>2020321546878</td>
+                                        <td>Employee</td>
+                                        <td class="actions">
+                                            <a href="">
+                                                <button type="button" class="btn btn-warning btn-sm">update</button>
+                                            </a>
+                                            <a href="" class="delete-row">
+                                                <button type="button" class="btn btn-secondary btn-sm">Delete</button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-success">
+                                        <td>baha</td>
+                                        <td>baha@cybertekschool.com</td>
+                                        <td>Male</td>
+                                        <td>2020321546878</td>
+                                        <td>Employee</td>
+                                        <td class="actions">
+                                            <a href="">
+                                                <button type="button" class="btn btn-warning btn-sm">update</button>
+                                            </a>
+                                            <a href="" class="delete-row">
+                                                <button type="button" class="btn btn-secondary btn-sm">Delete</button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-secondary">
+                                        <td>baha</td>
+                                        <td>baha@cybertekschool.com</td>
+                                        <td>Male</td>
+                                        <td>2020321546878</td>
+                                        <td>Employee</td>
+                                        <td class="actions">
+                                            <a href="">
+                                                <button type="button" class="btn btn-warning btn-sm">update</button>
+                                            </a>
+                                            <a href="" class="delete-row">
+                                                <button type="button" class="btn btn-secondary btn-sm">Delete</button>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+
+                                <!--footer-->
+                                <footer class="page-footer font-small blue fixed-bottom">
+                                    <div class="footer-copyright text-center py-3">2021 Cybertek-All Rights Reserved
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
             </div>
+
+
         </div>
         <!-- ============================================================== -->
 
